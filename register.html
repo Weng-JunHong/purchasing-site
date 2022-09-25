@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/register.css">
+    <title>register</title>
+</head>
+<body>
+    <div class="container2">       
+        <h3>創 建 帳 戶</h3>
+            <form action="user_id_add.jsp" method="post">
+                <input type="text" id="fullname" name="name" placeholder="姓名" required="required" /><br/>   
+                <input type="text" id="cellphone" name="cellphone" placeholder="手機" required="required" /><br/>  
+                <input type="text" id="email" name="email" placeholder="信箱" required="required" /><br/> 
+                <input type="text" id="address" name="address" placeholder="地址" required="required" /><br/> 
+                <input type="text" id="set_username" name="user_id" placeholder="設定帳號" required="required" /><br/>
+                <input type="password" id="set_password" name="password" placeholder="設定密碼" required="required" /><br/>
+                <div class="submit_a">
+                    <input type="submit" value="註 冊" class="submit" />
+                    <input type="reset" value="清 除" class="submit" />
+                </div>
+            </form>  
+        <a href="login.jsp"><h5>登入帳戶</h5></a>   
+    </div>
+</body>
+<script src="js/register.js"></script>
+</html>
